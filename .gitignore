@@ -1,0 +1,15 @@
+# Secrets and production environment files
+env/
+*.env
+*.env.local
+
+# Production data and large binary artifacts
+db/*.dump
+images/*.tar
+images/*.tar.gz
+minio-002/
+pdf-final/
+
+# OS metadata
+Thumbs.db
+.DS_Store
